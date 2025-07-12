@@ -1,0 +1,8 @@
+tacos 11.50 15
+sushi 20.00 10
+burgers 14.00 25
+salad 8.50 15
+pasta 12.00 20
+sandwiches 10.00 30
+french 16.00 30
+pizza 16.00 30

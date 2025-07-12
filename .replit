@@ -1,0 +1,20 @@
+modules = ["c-clang14"]
+run = "cafeteria_management_system"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "cafeteria_management_system"]
+
+[workflows]
+runButton = "Run"
+
+[[workflows.workflow]]
+name = "Run"
+author = 40717859
+mode = "sequential"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "./cafeteria_management_system"
