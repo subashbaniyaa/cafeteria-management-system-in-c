@@ -10,7 +10,7 @@ run = ["sh", "-c", "cafeteria_management_system"]
 [workflows]
 runButton = "Run"
 
-[[workflows.workflow]]./cafeteria_management_system
+[[workflows.workflow]]
 name = "Run"
 author = 40717859
 mode = "sequential"
